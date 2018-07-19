@@ -54,6 +54,9 @@ class DataSql(object):
                                    u'\U0001F680-\U0001F6FF'  # transport & map symbols
                                    u'\U0001F1E0-\U0001F1FF'  # flags (iOS)
                                    ']+', flags=re.UNICODE)
+        # 去除weibo文本中前面的##部分
+        pattern = re.compile("#[a-zA-Z0-9\u4E00-\u9FA5]+#")
+
         with open(weibo_content_save_path, 'w+') as f:
             if weibo_content:
                 # 去除文本中的特殊字符<200b><200c><200d>
@@ -61,8 +64,8 @@ class DataSql(object):
                 for item in weibo_content:
                     sub_result = item[0].replace(u'\u200b', '')
                     sub_result = emoji_pattern.sub(r'', sub_result)
+                    sub_result = pattern.sub(r'', sub_result)
                     temp.append(sub_result)
-
                 f.write('\n'.join(temp))
                 print('done')
             else:

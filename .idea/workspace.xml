@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda95f54-aef3-4fb5-a952-d25914b6865c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/cloud_analyse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/crawler/36kr_crawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/nlp/cloud_analyse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/ltp_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ltp_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cloud_analyse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ltp_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/nlp/ltp_analyse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/didizhuanche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/didizhuanche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/userdict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings/userdict.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/data_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_sql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,44 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ltp_analyse.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/ltp_analyse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cloud_analyse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/cloud_analyse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userdict.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/userdict.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="data_sql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/data_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="-570">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -74,6 +40,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="36kr_crawler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/crawler/36kr_crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -86,6 +64,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>key</find>
+      <find>升级</find>
+      <find>TMP</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,17 +80,22 @@
         <option value="$PROJECT_DIR$/utils/sql.py" />
         <option value="$PROJECT_DIR$/venv/tet.py" />
         <option value="$PROJECT_DIR$/settings/userdict.txt" />
-        <option value="$PROJECT_DIR$/utils/data_sql.py" />
-        <option value="$PROJECT_DIR$/core/cloud_analyse.py" />
         <option value="$PROJECT_DIR$/core/ltp_analyse.py" />
+        <option value="$PROJECT_DIR$/core/test.py" />
+        <option value="$PROJECT_DIR$/core/cloud_analyse.py" />
+        <option value="$PROJECT_DIR$/core/36kr_crawler.py" />
+        <option value="$PROJECT_DIR$/core/nlp/cloud_analyse.py" />
+        <option value="$PROJECT_DIR$/core/nlp/ltp_analyse.py" />
+        <option value="$PROJECT_DIR$/utils/data_sql.py" />
+        <option value="$PROJECT_DIR$/core/crawler/36kr_crawler.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="y" value="221" />
+    <option name="x" value="167" />
+    <option name="y" value="589" />
     <option name="width" value="1391" />
-    <option name="height" value="812" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +115,23 @@
               <item name="nlp_analyse" type="b2602c69:ProjectViewProjectNode" />
               <item name="nlp_analyse" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp_analyse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp_analyse" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp_analyse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp_analyse" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nlp_analyse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nlp_analyse" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nlp_analyse" type="b2602c69:ProjectViewProjectNode" />
@@ -155,6 +157,12 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/nlp" />
+      <recent name="$PROJECT_DIR$/core/crawler" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -167,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ltp_analyse">
+  <component name="RunManager" selected="Python.cloud_analyse">
     <configuration name="cloud_analyse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="nlp_analyse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +188,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/cloud_analyse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/nlp/cloud_analyse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +224,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/ltp_analyse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/nlp/ltp_analyse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nlp_analyse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,12 +252,14 @@
       <item itemvalue="Python.data_sql" />
       <item itemvalue="Python.ltp_analyse" />
       <item itemvalue="Python.cloud_analyse" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ltp_analyse" />
         <item itemvalue="Python.cloud_analyse" />
         <item itemvalue="Python.data_sql" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ltp_analyse" />
       </list>
     </recent_temporary>
   </component>
@@ -250,13 +278,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.49433962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18760107" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3647541" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3114754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -274,7 +303,105 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/ltp_analyse.py">
+    <entry file="file://$PROJECT_DIR$/core/nlp/ltp_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/userdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/nlp/cloud_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/nlp/ltp_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/nlp/cloud_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/userdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/nlp/ltp_analyse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1854">
           <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
@@ -309,7 +436,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/mydb_sql.py" />
-    <entry file="file://$PROJECT_DIR$/core/ltp_analyse.py">
+    <entry file="file://$PROJECT_DIR$/core/nlp/ltp_analyse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1665">
           <caret line="117" selection-start-line="117" selection-end-line="117" />
@@ -320,6 +447,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/mydb_sql.py" />
+    <entry file="file://$PROJECT_DIR$/venv/tet.py" />
+    <entry file="file://$PROJECT_DIR$/settings/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/userdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/connenction_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings/db_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -327,27 +482,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/connenction_pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/tet.py" />
     <entry file="file://$PROJECT_DIR$/results/didizhuanche.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/data_sql.py">
+    <entry file="file://$PROJECT_DIR$/core/nlp/ltp_analyse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="-804">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/nlp/cloud_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -359,32 +516,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/userdict.txt">
+    <entry file="file://$PROJECT_DIR$/utils/data_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/cloud_analyse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="-570">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/ltp_analyse.py">
+    <entry file="file://$PROJECT_DIR$/core/crawler/36kr_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="186">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

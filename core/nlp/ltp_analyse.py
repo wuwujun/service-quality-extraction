@@ -1,5 +1,4 @@
 import os
-import re
 import jieba
 import time
 from pyltp import SentenceSplitter
@@ -18,7 +17,7 @@ srl_model_path = os.path.join(LTP_DATA_DIR, 'pisrl.model')  # 语义角色标注
 # 分句
 def sentence_split():
     content = ''
-    with open('../results/didizhuanche.txt', encoding='utf-8') as f:
+    with open('../../results/didizhuanche.txt', encoding='utf-8') as f:
         for lines in f.readlines():
             line = lines.strip()
             # 去除过短的句子
@@ -42,17 +41,18 @@ def test(sentences):
             'api_key': 'w1L626j522EpwyoydgfUkgFfSzLVcsecWioDZgEb',
             'text': item,
             'pattern': 'srl',
-            'format': 'plain'
+            'xml_input': True,
+            'format': 'json'
         }
         result = request.urlopen(url_get_base, parse.urlencode(args).encode(encoding='utf8'))
-        content = result.read().strip().decode('utf-8') # 将Unicode编码为utf-8
+        content = result.read().strip().decode('utf-8')  # 将Unicode编码为utf-8
         print(content)
 
 
 # 分词
 def word_split(sentences):
     words_list = []
-    jieba.load_userdict('../settings/userdict.txt')
+    jieba.load_userdict('../../settings/userdict.txt')
     for sentence in sentences:
         temple = jieba.cut(sentence, cut_all=False)
         words_list.append(list(temple))
