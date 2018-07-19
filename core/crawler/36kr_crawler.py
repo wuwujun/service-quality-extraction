@@ -7,8 +7,7 @@ import time
 
 
 '''
-entity_type=newsflash,目前爬取的是快讯内容,因此数据表kr_crwaler中text项的类型为mediumtext
-另外,url = http://36kr.com/api/tag/wuliu 查询所有标签为物流的文章
+url = http://36kr.com/api/tag/wuliu 查询所有标签为物流的文章
 '''
 
 

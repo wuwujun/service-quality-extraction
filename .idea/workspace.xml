@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda95f54-aef3-4fb5-a952-d25914b6865c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/core/crawler/36kr_crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/nlp/cloud_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/cloud_analyse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/ltp_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/nlp/ltp_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/didizhuanche.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/didizhuanche.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/data_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/crawler/36kr_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/crawler/36kr_crawler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +37,8 @@
       <file leaf-file-name="36kr_crawler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/crawler/36kr_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -91,11 +85,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="167" />
-    <option name="y" value="589" />
-    <option name="width" value="1391" />
-    <option name="height" value="784" />
+    <option name="y" value="332" />
+    <option name="width" value="1389" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -277,10 +271,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="167" y="332" width="1389" height="748" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18760107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25053996" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -528,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/crawler/36kr_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
