@@ -4,6 +4,7 @@ import json
 import codecs
 import csv
 import time
+from utils.data_clean import Dataclean
 
 
 '''
@@ -21,8 +22,10 @@ def gen_url(keyword, page=1, per_page=40, entity_type='newsflash', sort='date'):
 def spider(keyword):
     header = ['时间', '标题', 'url', '内容']
     total_count, page, page_size = 1, 0, 40
+    data_save_path = '../../results/36kr/'
+    filename = 'wuliu_newsflash.csv'
 
-    with codecs.open('../../results/36kr/ds_newsflash.csv', 'w+', encoding='utf8') as cf:
+    with codecs.open(data_save_path + filename, 'w+', encoding='utf8') as cf:
         f_csv = csv.writer(cf)
         f_csv.writerow(header)
 
@@ -49,10 +52,20 @@ def spider(keyword):
                 print(str(page) + 'th页爬取完成')
 
 
+def clean(file, path):
+    dc = Dataclean(filename=file, data_save_path=path)
+    dc.clean_newsflash()
+
+    pass
+
+
 def main():
     # spider("物流")
     # spider("新零售")
-    spider("电商")
+    # spider("电商")
+    data_save_path = '../../results/36kr/'
+    filename = 'wuliu_newsflash.csv'
+    clean(filename, data_save_path)
 
 
 if __name__ == '__main__':

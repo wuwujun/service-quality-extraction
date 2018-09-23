@@ -11,7 +11,7 @@ class ConnectionPool(object):
     def __enter__(self):
         self.conn = self.get_conn()
         self.cursor = self.conn.cursor()
-        return self;
+        return self
 
     def get_conn(self):
         if self.pool is None:
