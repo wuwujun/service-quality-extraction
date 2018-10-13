@@ -1,7 +1,6 @@
 import jieba
 import json
 from pyltp import SentenceSplitter
-import requests
 from urllib import request
 from urllib import parse
 
@@ -50,7 +49,7 @@ def word_split(sentences):
     # print(words_list)
     return words_list
 
-
+# 使用ltp云api进行处理
 def test(contents):
 
     url_get_base = "https://api.ltp-cloud.com/analysis/"

@@ -19,11 +19,9 @@ def gen_url(keyword, page=1, per_page=40, entity_type='newsflash', sort='date'):
     return url
 
 
-def spider(keyword):
+def spider(keyword, filename, data_save_path):
     header = ['时间', '标题', 'url', '内容']
     total_count, page, page_size = 1, 0, 40
-    data_save_path = '../../results/36kr/'
-    filename = 'wuliu_newsflash.csv'
 
     with codecs.open(data_save_path + filename, 'w+', encoding='utf8') as cf:
         f_csv = csv.writer(cf)
@@ -55,16 +53,15 @@ def spider(keyword):
 def clean(file, path):
     dc = Dataclean(filename=file, data_save_path=path)
     dc.clean_newsflash()
-
-    pass
+    dc.tag_data()
 
 
 def main():
-    # spider("物流")
+    filename = 'wuliu_newsflash.csv'
+    data_save_path = '../../results/36kr/'
+    spider("物流", filename, data_save_path)
     # spider("新零售")
     # spider("电商")
-    data_save_path = '../../results/36kr/'
-    filename = 'wuliu_newsflash.csv'
     clean(filename, data_save_path)
 
 
