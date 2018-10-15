@@ -48,5 +48,17 @@ class Dataclean(object):
             wf_csv = csv.writer(wf)
             wf_csv.writerows(new_sentences)
 
+    # 对美团数据训练集进行预处理
+    def clean_meituan(self):
+        with open(self.cleandt_save_path, 'w+', encoding='utf-8') as wf:
+            wf_csv = csv.writer(wf)
+
+            with open(self.data_save_path + self.filename, encoding='utf-8') as f:
+                f_csv = csv.reader(f)
+                for row in f_csv:
+                    text = row[1]
+                    result = [text]
+                    wf_csv.writerow(result)
+        return self.cleandt_save_path
 
 
