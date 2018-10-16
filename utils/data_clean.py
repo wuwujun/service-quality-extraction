@@ -12,6 +12,10 @@ class Dataclean(object):
         self.tagdt_save_path = self.data_save_path + self.filename[:-4] + '_tag.csv'
         pass
 
+    # 去除文本中的表情符号emoji和颜文字
+    def clean_expression(self):
+        pass
+
     # 取出爬取的36kr新闻快讯的文本内容导入到新文件中存储
     def clean_newsflash(self):
         with open(self.cleandt_save_path, 'w+', encoding='utf-8') as wf:
