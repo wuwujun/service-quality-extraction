@@ -24,7 +24,7 @@ def tag_extraction(data_save_path):
     options = {'type': 4}  # 餐饮美食类
     prop_adj = {}
     count = 0
-    df = pd.read_csv(data_save_path, nrows=100, encoding='utf-8')
+    df = pd.read_csv(data_save_path, encoding='utf-8')
     with open('../../results/meituan/error_log.txt', 'w+', encoding='utf-8') as f:
         for text in df.ix[:, 'content']:
             count += 1
@@ -34,7 +34,7 @@ def tag_extraction(data_save_path):
                 text = re.sub(u'([^\u4e00-\u9fa5\u0030-\u0039\u0041-\u005a\u0061-\u007a])', ' ', text)
                 result = client.commentTag(text, options)
             except Exception as e:
-                f.write('有编码问题的行数：' + str(count))
+                f.write('有编码问题的行数：' + str(count) + '\n')
                 print('有编码问题的行数：' + str(count))
                 print(e)
 
@@ -48,7 +48,7 @@ def tag_extraction(data_save_path):
                     if adj:
                         temp.add(adj)
             else:
-                f.write('有错误的行数：' + str(count) + ' 错误代码：' + str(result['error_code']) + result['error_msg'])
+                f.write('有错误的行数：' + str(count) + ' 错误代码：' + str(result['error_code']) + result['error_msg'] + '\n')
                 print(str(result['error_code']) + result['error_msg'])
 
     tag = prop_adj.keys()
